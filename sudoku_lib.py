@@ -1,7 +1,7 @@
 def display_sudoku(sudoku_board): # PROVIDED
     def repeatCharacter(character, amount):
-    for i in range(amount):
-        print(character, end="")
+        for i in range(amount):
+            print(character, end="")
     
     # Print the column numbers
     repeatCharacter(" ", 1+2)
