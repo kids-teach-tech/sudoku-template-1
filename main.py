@@ -1,4 +1,4 @@
-import sudoku
+import sudoku as sl
 
 def sudokuCoordinates(coords):
     # Convert the string input into a 2 item list [row, column]
@@ -10,9 +10,9 @@ def is_valid_move(sudoku, row, col, num):
 
     return True
 
-sudoku = sudoku.sudokus[0]
+sudoku = sl.sudokus[0]
 
 while True: # Loops forever
-    sudoku.display_sudoku(sudoku)
+    sl.display_sudoku(sudoku)
 
     # Ask the user for input make sure it is valid
