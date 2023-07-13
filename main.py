@@ -1,0 +1,18 @@
+import sudoku
+
+def sudokuCoordinates(coords):
+    # Convert the string input into a 2 item list [row, column]
+
+def is_valid_move(sudoku, row, col, num):
+    # Check if 'num' is already present in the row and column, if so return False
+
+    # Check if 'num' is already present in the 3x3 grid, if so return False
+
+    return True
+
+sudoku = sudoku.sudokus[0]
+
+while True: # Loops forever
+    sudoku.display_sudoku(sudoku)
+
+    # Ask the user for input make sure it is valid
